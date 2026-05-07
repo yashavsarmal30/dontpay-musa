@@ -1,4 +1,4 @@
-# 📚 Exam Question Analyser — MCP Server
+# 📚 Exam Question Analyser — MCP Server (Dont Pay Musa For Question Banks)
 
 > Analyse university exam papers · Group by topic · Rank by frequency · Generate professional PDF question banks
 
@@ -103,4 +103,4 @@ MIT — see [LICENSE](LICENSE).
 
 ---
 
-*Made with ❤️ by Yash Avsarmal*
+*Author : Yash Avsarmal*
