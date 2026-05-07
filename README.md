@@ -1,6 +1,6 @@
-# 📚 Exam Question Analyser — MCP Server (Dont Pay Musa For Question Banks)
+# 📚 Exam Question Analyser — MCP Server 
 
-Pay me 😉 UPI Id : yashavsarmal30@okaxis
+(Dont Pay Musa For Question Banks Pay Me Instead)😉 UPI Id : yashavsarmal30@okaxis
 
 > Analyse university exam papers · Group by topic · Rank by frequency · Generate professional PDF question banks
 **Author:** Yash Avsarmal · [github.com/yashavsarmal30](https://github.com/yashavsarmal30)
