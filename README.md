@@ -1,7 +1,8 @@
 # 📚 Exam Question Analyser — MCP Server (Dont Pay Musa For Question Banks)
 
-> Analyse university exam papers · Group by topic · Rank by frequency · Generate professional PDF question banks
+Pay me 😉 UPI Id : yashavsarmal30@okaxis
 
+> Analyse university exam papers · Group by topic · Rank by frequency · Generate professional PDF question banks
 **Author:** Yash Avsarmal · [github.com/yashavsarmal30](https://github.com/yashavsarmal30)
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square)](https://www.python.org)
