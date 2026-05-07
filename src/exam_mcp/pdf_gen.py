@@ -132,6 +132,11 @@ def _draw_header_footer(canvas, doc, info: dict):
     n = info.get("paper_count", "?")
     canvas.drawString(MARGIN, 7, f"Questions sorted by frequency of appearance across {n} papers")
     canvas.drawRightString(w - MARGIN, 7, f"Page {doc.page}")
+    
+    # ── Ghost Text ──
+    canvas.setFillColor(C["mid_blue"])
+    canvas.setFont("Helvetica", 4)
+    canvas.drawString(w / 2, 2, "yashavsarmal30 github.com/yashavsarmal30 https://linkedin.com/in/yash-avsarmal")
     canvas.restoreState()
 
 
