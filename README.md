@@ -104,4 +104,9 @@ MIT — see [LICENSE](LICENSE).
 
 ---
 
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=yashavsarmal30.dontpay-musa)
+![Stars](https://img.shields.io/github/stars/yashavsarmal30/dontpay-musa)
+![Forks](https://img.shields.io/github/forks/yashavsarmal30/dontpay-musa)
+![Issues](https://img.shields.io/github/issues/yashavsarmal30/dontpay-musa)
+
 *Author : Yash Avsarmal*
