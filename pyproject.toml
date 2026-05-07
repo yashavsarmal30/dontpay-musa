@@ -1,0 +1,67 @@
+[build-system]
+requires      = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name        = "dontpay-musa"
+version     = "1.0.0"
+description = "MCP server that analyses university exam papers and generates ranked question-bank PDFs"
+readme      = "README.md"
+license     = { text = "MIT" }
+authors     = [{ name = "Yash Avsarmal", email = "yash@example.com" }]
+requires-python = ">=3.10"
+
+keywords = ["mcp", "exam", "university", "question-bank", "pdf", "ocr", "ai"]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Education",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "mcp[cli]>=1.0.0",
+    "reportlab>=4.0",
+    "pymupdf>=1.23",
+    "pytesseract>=0.3",
+    "Pillow>=10.0",
+    "pdf2image>=1.16",
+]
+
+[project.optional-dependencies]
+llm = [
+    "anthropic>=0.40",
+    "openai>=1.0",
+    "google-generativeai>=0.8",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "ruff>=0.4",
+    "mypy>=1.10",
+]
+
+[project.scripts]
+exam-mcp = "exam_mcp.server:main"
+
+[project.urls]
+Homepage   = "https://github.com/yashavsarmal30/dontpay-musa"
+Repository = "https://github.com/yashavsarmal30/dontpay-musa"
+Issues     = "https://github.com/yashavsarmal30/dontpay-musa/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/exam_mcp"]
+
+[tool.ruff]
+line-length    = 100
+target-version = "py310"
+
+[tool.mypy]
+python_version = "3.10"
+strict         = true
